@@ -28,3 +28,9 @@ zip -r hello_world.zip .
 ## Handler
 Archivo: lambda_functions/hello_world/app.py
 Función: lambda_handler(event, context)
+
+## Tests
+cd test
+pytest -s
+or
+pytest -v
